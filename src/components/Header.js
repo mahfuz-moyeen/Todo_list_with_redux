@@ -15,8 +15,10 @@ const Header = () => {
                 />
                 <button
                     type="submit"
-                    className={`appearance-none w-8 h-8 bg-[url('${plusImage})] bg-no-repeat bg-contain`}
-                ></button>
+                    className={`appearance-none w-8 h-8 bg-no-repeat bg-contain`}
+                >
+                    <img src={plusImage} className="w-6 h-6" alt="Add todo" />
+                </button>
             </form>
 
             <ul className="flex justify-between my-4 text-xs text-gray-500">
