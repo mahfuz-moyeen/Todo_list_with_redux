@@ -15,7 +15,7 @@ const Header = () => {
                 />
                 <button
                     type="submit"
-                    className={`appearance-none w-8 h-8 bg-[url('${plusImage}')] bg-no-repeat bg-contain`}
+                    className={`appearance-none w-8 h-8 bg-[url('${plusImage})] bg-no-repeat bg-contain`}
                 ></button>
             </form>
 
